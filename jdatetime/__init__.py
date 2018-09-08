@@ -894,7 +894,8 @@ class datetime(date):
                 result_date['day'],
                 result_date['hour'],
                 result_date['minute'],
-                result_date['second'])
+                result_date['second'],
+                result_date['microsecond'])
         except:
             raise ValueError(
                 "time data '%s' does not match format '%s'" %
